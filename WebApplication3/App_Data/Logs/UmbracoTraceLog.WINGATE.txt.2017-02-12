@@ -1,0 +1,301 @@
+﻿ 2017-02-12 14:18:14,040 [P496/D2/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco 7.5.8 application starting on WINGATE
+ 2017-02-12 14:18:14,088 [P496/D2/T1] INFO  Umbraco.Core.PluginManager - Determining hash of code files on disk
+ 2017-02-12 14:18:14,119 [P496/D2/T1] INFO  Umbraco.Core.PluginManager - Hash determined (took 30ms)
+ 2017-02-12 14:18:14,198 [P496/D2/T1] INFO  Umbraco.Core.MainDom - Acquiring MainDom...
+ 2017-02-12 14:18:14,205 [P496/D2/T1] INFO  Umbraco.Core.MainDom - Acquired MainDom.
+ 2017-02-12 14:18:14,214 [P496/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+ 2017-02-12 14:18:14,686 [P496/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 0 (took 472ms)
+ 2017-02-12 14:18:14,711 [P496/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+ 2017-02-12 14:18:14,734 [P496/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 23ms)
+ 2017-02-12 14:18:14,736 [P496/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyValueConverter
+ 2017-02-12 14:18:14,754 [P496/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyValueConverter, found 0 (took 18ms)
+ 2017-02-12 14:18:14,785 [P496/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+ 2017-02-12 14:18:14,802 [P496/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 17ms)
+ 2017-02-12 14:18:14,803 [P496/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+ 2017-02-12 14:18:14,826 [P496/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 0 (took 22ms)
+ 2017-02-12 14:18:14,887 [P496/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+ 2017-02-12 14:18:14,896 [P496/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 0 (took 9ms)
+ 2017-02-12 14:18:14,897 [P496/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+ 2017-02-12 14:18:14,904 [P496/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 0 (took 7ms)
+ 2017-02-12 14:18:16,165 [P496/D2/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2017-02-12 14:18:16,478 [P496/D2/T1] INFO  Umbraco.Web.Cache.CacheRefresherEventHandler - Initializing Umbraco internal event handlers for cache refreshing
+ 2017-02-12 14:18:16,495 [P496/D2/T1] INFO  Umbraco.Web.Search.ExamineEvents - Initializing Examine and binding to business logic events
+ 2017-02-12 14:18:16,594 [P496/D2/T1] INFO  Umbraco.Web.Search.ExamineEvents - Adding examine event handlers for index providers: 3
+ 2017-02-12 14:18:16,718 [P496/D2/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco application startup complete (took 2825ms)
+ 2017-02-12 14:18:16,912 [P496/D2/T10] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - ApplicationUrl: http://localhost:61551/umbraco (UmbracoModule request)
+ 2017-02-12 14:18:17,160 [P496/D2/T10] INFO  umbraco.content - Load Xml from file...
+ 2017-02-12 14:18:17,171 [P496/D2/T10] INFO  umbraco.content - Loaded Xml from file.
+ 2017-02-12 14:18:18,028 [P496/D2/T10] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
+ 2017-02-12 14:18:18,046 [P496/D2/T10] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 0 (took 17ms)
+ 2017-02-12 14:19:17,288 [P496/D2/T16] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2017-02-11 14:19:17
+ 2017-02-12 14:19:17,334 [P496/D2/T16] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+ 2017-02-12 14:19:17,359 [P496/D2/T16] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 0 (took 24ms)
+ 2017-02-12 15:10:44,139 [P496/D2/T77] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt failed for username wingatekr@gmail.com from IP address ::1
+ 2017-02-12 15:10:52,138 [P496/D2/T77] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt failed for username wingatekr@gmail.com from IP address ::1
+ 2017-02-12 15:10:55,575 [P496/D2/T77] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username wingatekr@gmail.com from IP address ::1
+ 2017-02-12 15:10:55,576 [P496/D2/T77] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: wingatekr@gmail.com logged in from IP address ::1
+ 2017-02-12 15:10:55,695 [P496/D2/T77] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2017-02-12 15:10:55,700 [P496/D2/T77] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 18ms)
+ 2017-02-12 15:10:55,858 [P496/D2/T59] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IApplication
+ 2017-02-12 15:10:55,910 [P496/D2/T59] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IApplication, found 0 (took 52ms)
+ 2017-02-12 15:10:55,923 [P496/D2/T55] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ITree
+ 2017-02-12 15:10:56,031 [P496/D2/T55] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ITree, found 0 (took 115ms)
+ 2017-02-12 15:10:56,073 [P496/D2/T55] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2017-02-12 15:10:56,074 [P496/D2/T55] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 0ms)
+ 2017-02-12 15:10:56,078 [P496/D2/T55] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ITree
+ 2017-02-12 15:10:56,118 [P496/D2/T55] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ITree, found 0 (took 40ms)
+ 2017-02-12 15:16:54,145 [P496/D2/T56] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ICacheRefresher
+ 2017-02-12 15:16:54,166 [P496/D2/T56] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ICacheRefresher, found 0 (took 21ms)
+ 2017-02-12 15:17:26,487 [P496/D2/T83] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Home' with Id '1063' has been published.
+ 2017-02-12 15:17:30,781 [P496/D2/T13] INFO  umbraco.content - Save Xml to file...
+ 2017-02-12 15:17:30,811 [P496/D2/T13] INFO  umbraco.content - Saved Xml to file.
+ 2017-02-12 15:18:53,530 [P496/D2/T75] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Home' with Id '1063' has been published.
+ 2017-02-12 15:18:57,558 [P496/D2/T75] INFO  umbraco.content - Save Xml to file...
+ 2017-02-12 15:18:57,574 [P496/D2/T75] INFO  umbraco.content - Saved Xml to file.
+ 2017-02-12 15:19:17,336 [P496/D2/T83] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Wholesale' with Id '1064' has been published.
+ 2017-02-12 15:19:21,376 [P496/D2/T104] INFO  umbraco.content - Save Xml to file...
+ 2017-02-12 15:19:21,376 [P496/D2/T104] INFO  umbraco.content - Saved Xml to file.
+ 2017-02-12 15:19:38,824 [P496/D2/T69] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Custom Jewelry Design' with Id '1068' has been published.
+ 2017-02-12 15:19:42,871 [P496/D2/T93] INFO  umbraco.content - Save Xml to file...
+ 2017-02-12 15:19:42,883 [P496/D2/T93] INFO  umbraco.content - Saved Xml to file.
+ 2017-02-12 15:21:14,415 [P496/D2/T89] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Home' with Id '1063' has been published.
+ 2017-02-12 15:21:18,469 [P496/D2/T79] INFO  umbraco.content - Save Xml to file...
+ 2017-02-12 15:21:18,487 [P496/D2/T79] INFO  umbraco.content - Saved Xml to file.
+ 2017-02-12 15:28:50,664 [P496/D2/T117] WARN  Umbraco.Core.Persistence.Repositories.VersionableRepositoryBase`2[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[Umbraco.Core.Models.IContent, Umbraco.Core, Version=1.0.6233.15010, Culture=neutral, PublicKeyToken=null]] - The query returned multiple property sets for document definition 1063, Home
+ 2017-02-12 15:28:50,665 [P496/D2/T117] WARN  Umbraco.Core.Persistence.Repositories.VersionableRepositoryBase`2[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[Umbraco.Core.Models.IContent, Umbraco.Core, Version=1.0.6233.15010, Culture=neutral, PublicKeyToken=null]] - The query returned multiple property sets for document definition 1063, Home
+ 2017-02-12 15:28:50,665 [P496/D2/T117] WARN  Umbraco.Core.Persistence.Repositories.VersionableRepositoryBase`2[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[Umbraco.Core.Models.IContent, Umbraco.Core, Version=1.0.6233.15010, Culture=neutral, PublicKeyToken=null]] - The query returned multiple property sets for document definition 1063, Home
+ 2017-02-12 15:28:50,665 [P496/D2/T117] WARN  Umbraco.Core.Persistence.Repositories.VersionableRepositoryBase`2[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[Umbraco.Core.Models.IContent, Umbraco.Core, Version=1.0.6233.15010, Culture=neutral, PublicKeyToken=null]] - The query returned multiple property sets for document definition 1063, Home
+ 2017-02-12 15:28:50,666 [P496/D2/T117] WARN  Umbraco.Core.Persistence.Repositories.VersionableRepositoryBase`2[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[Umbraco.Core.Models.IContent, Umbraco.Core, Version=1.0.6233.15010, Culture=neutral, PublicKeyToken=null]] - The query returned multiple property sets for document definition 1063, Home
+ 2017-02-12 15:28:50,666 [P496/D2/T117] WARN  Umbraco.Core.Persistence.Repositories.VersionableRepositoryBase`2[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[Umbraco.Core.Models.IContent, Umbraco.Core, Version=1.0.6233.15010, Culture=neutral, PublicKeyToken=null]] - The query returned multiple property sets for document definition 1063, Home
+ 2017-02-12 15:28:51,642 [P496/D2/T100] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2017-02-12 15:28:51,642 [P496/D2/T100] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 0ms)
+ 2017-02-12 15:29:01,153 [P496/D2/T115] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2017-02-12 15:29:01,156 [P496/D2/T115] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 3ms)
+ 2017-02-12 15:29:08,925 [P496/D2/T117] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Home' with Id '1063' has been published.
+ 2017-02-12 15:29:13,471 [P496/D2/T79] INFO  umbraco.content - Save Xml to file...
+ 2017-02-12 15:29:13,617 [P496/D2/T79] INFO  umbraco.content - Saved Xml to file.
+ 2017-02-12 15:29:24,661 [P496/D2/T117] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Home' with Id '1063' has been published.
+ 2017-02-12 15:29:29,526 [P496/D2/T110] INFO  umbraco.content - Save Xml to file...
+ 2017-02-12 15:29:29,639 [P496/D2/T110] INFO  umbraco.content - Saved Xml to file.
+ 2017-02-12 15:31:07,147 [P496/D2/T50] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Extend' with Id '1072' has been unpublished.
+ 2017-02-12 15:31:11,248 [P496/D2/T100] INFO  umbraco.content - Save Xml to file...
+ 2017-02-12 15:31:11,303 [P496/D2/T100] INFO  umbraco.content - Saved Xml to file.
+ 2017-02-12 15:31:48,393 [P496/D2/T117] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Home' with Id '1063' has been published.
+ 2017-02-12 15:31:52,530 [P496/D2/T105] INFO  umbraco.content - Save Xml to file...
+ 2017-02-12 15:31:52,573 [P496/D2/T105] INFO  umbraco.content - Saved Xml to file.
+ 2017-02-12 15:32:17,302 [P496/D2/T100] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Home' with Id '1063' has been published.
+ 2017-02-12 15:32:21,418 [P496/D2/T115] INFO  umbraco.content - Save Xml to file...
+ 2017-02-12 15:32:21,531 [P496/D2/T115] INFO  umbraco.content - Saved Xml to file.
+ 2017-02-12 15:37:33,946 [P496/D2/T52] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Home' with Id '1063' has been published.
+ 2017-02-12 15:37:38,004 [P496/D2/T115] INFO  umbraco.content - Save Xml to file...
+ 2017-02-12 15:37:38,021 [P496/D2/T115] INFO  umbraco.content - Saved Xml to file.
+ 2017-02-12 15:39:13,367 [P496/D2/T85] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Home' with Id '1063' has been published.
+ 2017-02-12 15:39:17,495 [P496/D2/T115] INFO  umbraco.content - Save Xml to file...
+ 2017-02-12 15:39:17,525 [P496/D2/T115] INFO  umbraco.content - Saved Xml to file.
+ 2017-02-12 15:44:20,666 [P496/D2/T65] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Home' with Id '1063' has been published.
+ 2017-02-12 15:44:24,825 [P496/D2/T115] INFO  umbraco.content - Save Xml to file...
+ 2017-02-12 15:44:24,849 [P496/D2/T115] INFO  umbraco.content - Saved Xml to file.
+ 2017-02-12 15:45:59,028 [P496/D2/T27] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Home' with Id '1063' has been published.
+ 2017-02-12 15:46:03,153 [P496/D2/T71] INFO  umbraco.content - Save Xml to file...
+ 2017-02-12 15:46:03,165 [P496/D2/T71] INFO  umbraco.content - Saved Xml to file.
+ 2017-02-12 15:46:15,970 [P496/D2/T115] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Home' with Id '1063' has been published.
+ 2017-02-12 15:46:20,007 [P496/D2/T27] INFO  umbraco.content - Save Xml to file...
+ 2017-02-12 15:46:20,024 [P496/D2/T27] INFO  umbraco.content - Saved Xml to file.
+ 2017-02-12 15:47:00,275 [P496/D2/T118] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Home' with Id '1063' has been published.
+ 2017-02-12 15:47:04,320 [P496/D2/T104] INFO  umbraco.content - Save Xml to file...
+ 2017-02-12 15:47:04,348 [P496/D2/T104] INFO  umbraco.content - Saved Xml to file.
+ 2017-02-12 15:47:24,001 [P496/D2/T27] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Home' with Id '1063' has been published.
+ 2017-02-12 15:47:28,044 [P496/D2/T22] INFO  umbraco.content - Save Xml to file...
+ 2017-02-12 15:47:28,085 [P496/D2/T22] INFO  umbraco.content - Saved Xml to file.
+ 2017-02-12 15:48:25,714 [P496/D2/T115] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Home' with Id '1063' has been published.
+ 2017-02-12 15:48:29,775 [P496/D2/T37] INFO  umbraco.content - Save Xml to file...
+ 2017-02-12 15:48:29,787 [P496/D2/T37] INFO  umbraco.content - Saved Xml to file.
+ 2017-02-12 15:54:06,539 [P496/D2/T68] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Editors.IEditorValidator
+ 2017-02-12 15:54:06,559 [P496/D2/T68] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Editors.IEditorValidator, found 0 (took 19ms)
+ 2017-02-12 15:54:48,839 [P496/D2/T78] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Home' with Id '1063' has been published.
+ 2017-02-12 15:54:52,881 [P496/D2/T51] INFO  umbraco.content - Save Xml to file...
+ 2017-02-12 15:54:52,895 [P496/D2/T51] INFO  umbraco.content - Saved Xml to file.
+ 2017-02-12 15:55:35,010 [P496/D2/T60] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Home' with Id '1063' has been published.
+ 2017-02-12 15:55:39,052 [P496/D2/T60] INFO  umbraco.content - Save Xml to file...
+ 2017-02-12 15:55:39,067 [P496/D2/T60] INFO  umbraco.content - Saved Xml to file.
+ 2017-02-12 15:55:53,094 [P496/D2/T27] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Home' with Id '1063' has been published.
+ 2017-02-12 15:55:57,196 [P496/D2/T60] INFO  umbraco.content - Save Xml to file...
+ 2017-02-12 15:55:57,287 [P496/D2/T60] INFO  umbraco.content - Saved Xml to file.
+ 2017-02-12 15:56:20,903 [P496/D2/T37] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Home' with Id '1063' has been published.
+ 2017-02-12 15:56:24,974 [P496/D2/T38] INFO  umbraco.content - Save Xml to file...
+ 2017-02-12 15:56:24,989 [P496/D2/T38] INFO  umbraco.content - Saved Xml to file.
+ 2017-02-12 15:56:52,820 [P496/D2/T60] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Home' with Id '1063' has been published.
+ 2017-02-12 15:56:56,860 [P496/D2/T38] INFO  umbraco.content - Save Xml to file...
+ 2017-02-12 15:56:56,874 [P496/D2/T38] INFO  umbraco.content - Saved Xml to file.
+ 2017-02-12 15:57:34,728 [P496/D2/T60] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Home' with Id '1063' has been published.
+ 2017-02-12 15:57:38,781 [P496/D2/T60] INFO  umbraco.content - Save Xml to file...
+ 2017-02-12 15:57:38,795 [P496/D2/T60] INFO  umbraco.content - Saved Xml to file.
+ 2017-02-12 15:57:54,763 [P496/D2/T29] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Home' with Id '1063' has been published.
+ 2017-02-12 15:57:58,809 [P496/D2/T60] INFO  umbraco.content - Save Xml to file...
+ 2017-02-12 15:57:58,850 [P496/D2/T60] INFO  umbraco.content - Saved Xml to file.
+ 2017-02-12 15:58:25,264 [P496/D2/T29] WARN  Umbraco.Core.Persistence.Repositories.VersionableRepositoryBase`2[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[Umbraco.Core.Models.IContent, Umbraco.Core, Version=1.0.6233.15010, Culture=neutral, PublicKeyToken=null]] - The query returned multiple property sets for document definition 1063, Home
+ 2017-02-12 15:58:25,264 [P496/D2/T29] WARN  Umbraco.Core.Persistence.Repositories.VersionableRepositoryBase`2[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[Umbraco.Core.Models.IContent, Umbraco.Core, Version=1.0.6233.15010, Culture=neutral, PublicKeyToken=null]] - The query returned multiple property sets for document definition 1063, Home
+ 2017-02-12 15:58:25,264 [P496/D2/T29] WARN  Umbraco.Core.Persistence.Repositories.VersionableRepositoryBase`2[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[Umbraco.Core.Models.IContent, Umbraco.Core, Version=1.0.6233.15010, Culture=neutral, PublicKeyToken=null]] - The query returned multiple property sets for document definition 1063, Home
+ 2017-02-12 15:58:25,264 [P496/D2/T29] WARN  Umbraco.Core.Persistence.Repositories.VersionableRepositoryBase`2[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[Umbraco.Core.Models.IContent, Umbraco.Core, Version=1.0.6233.15010, Culture=neutral, PublicKeyToken=null]] - The query returned multiple property sets for document definition 1063, Home
+ 2017-02-12 15:58:25,264 [P496/D2/T29] WARN  Umbraco.Core.Persistence.Repositories.VersionableRepositoryBase`2[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[Umbraco.Core.Models.IContent, Umbraco.Core, Version=1.0.6233.15010, Culture=neutral, PublicKeyToken=null]] - The query returned multiple property sets for document definition 1063, Home
+ 2017-02-12 15:58:25,264 [P496/D2/T29] WARN  Umbraco.Core.Persistence.Repositories.VersionableRepositoryBase`2[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[Umbraco.Core.Models.IContent, Umbraco.Core, Version=1.0.6233.15010, Culture=neutral, PublicKeyToken=null]] - The query returned multiple property sets for document definition 1063, Home
+ 2017-02-12 15:58:25,264 [P496/D2/T29] WARN  Umbraco.Core.Persistence.Repositories.VersionableRepositoryBase`2[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[Umbraco.Core.Models.IContent, Umbraco.Core, Version=1.0.6233.15010, Culture=neutral, PublicKeyToken=null]] - The query returned multiple property sets for document definition 1063, Home
+ 2017-02-12 15:58:25,264 [P496/D2/T29] WARN  Umbraco.Core.Persistence.Repositories.VersionableRepositoryBase`2[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[Umbraco.Core.Models.IContent, Umbraco.Core, Version=1.0.6233.15010, Culture=neutral, PublicKeyToken=null]] - The query returned multiple property sets for document definition 1063, Home
+ 2017-02-12 15:58:25,264 [P496/D2/T29] WARN  Umbraco.Core.Persistence.Repositories.VersionableRepositoryBase`2[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[Umbraco.Core.Models.IContent, Umbraco.Core, Version=1.0.6233.15010, Culture=neutral, PublicKeyToken=null]] - The query returned multiple property sets for document definition 1063, Home
+ 2017-02-12 15:58:25,264 [P496/D2/T29] WARN  Umbraco.Core.Persistence.Repositories.VersionableRepositoryBase`2[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[Umbraco.Core.Models.IContent, Umbraco.Core, Version=1.0.6233.15010, Culture=neutral, PublicKeyToken=null]] - The query returned multiple property sets for document definition 1063, Home
+ 2017-02-12 15:58:25,264 [P496/D2/T29] WARN  Umbraco.Core.Persistence.Repositories.VersionableRepositoryBase`2[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[Umbraco.Core.Models.IContent, Umbraco.Core, Version=1.0.6233.15010, Culture=neutral, PublicKeyToken=null]] - The query returned multiple property sets for document definition 1063, Home
+ 2017-02-12 15:58:25,264 [P496/D2/T29] WARN  Umbraco.Core.Persistence.Repositories.VersionableRepositoryBase`2[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[Umbraco.Core.Models.IContent, Umbraco.Core, Version=1.0.6233.15010, Culture=neutral, PublicKeyToken=null]] - The query returned multiple property sets for document definition 1063, Home
+ 2017-02-12 15:58:25,264 [P496/D2/T29] WARN  Umbraco.Core.Persistence.Repositories.VersionableRepositoryBase`2[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[Umbraco.Core.Models.IContent, Umbraco.Core, Version=1.0.6233.15010, Culture=neutral, PublicKeyToken=null]] - The query returned multiple property sets for document definition 1063, Home
+ 2017-02-12 15:58:25,265 [P496/D2/T29] WARN  Umbraco.Core.Persistence.Repositories.VersionableRepositoryBase`2[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[Umbraco.Core.Models.IContent, Umbraco.Core, Version=1.0.6233.15010, Culture=neutral, PublicKeyToken=null]] - The query returned multiple property sets for document definition 1063, Home
+ 2017-02-12 15:58:25,265 [P496/D2/T29] WARN  Umbraco.Core.Persistence.Repositories.VersionableRepositoryBase`2[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[Umbraco.Core.Models.IContent, Umbraco.Core, Version=1.0.6233.15010, Culture=neutral, PublicKeyToken=null]] - The query returned multiple property sets for document definition 1063, Home
+ 2017-02-12 15:58:25,265 [P496/D2/T29] WARN  Umbraco.Core.Persistence.Repositories.VersionableRepositoryBase`2[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[Umbraco.Core.Models.IContent, Umbraco.Core, Version=1.0.6233.15010, Culture=neutral, PublicKeyToken=null]] - The query returned multiple property sets for document definition 1063, Home
+ 2017-02-12 15:58:25,265 [P496/D2/T29] WARN  Umbraco.Core.Persistence.Repositories.VersionableRepositoryBase`2[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[Umbraco.Core.Models.IContent, Umbraco.Core, Version=1.0.6233.15010, Culture=neutral, PublicKeyToken=null]] - The query returned multiple property sets for document definition 1063, Home
+ 2017-02-12 15:58:25,265 [P496/D2/T29] WARN  Umbraco.Core.Persistence.Repositories.VersionableRepositoryBase`2[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[Umbraco.Core.Models.IContent, Umbraco.Core, Version=1.0.6233.15010, Culture=neutral, PublicKeyToken=null]] - The query returned multiple property sets for document definition 1063, Home
+ 2017-02-12 15:58:25,265 [P496/D2/T29] WARN  Umbraco.Core.Persistence.Repositories.VersionableRepositoryBase`2[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[Umbraco.Core.Models.IContent, Umbraco.Core, Version=1.0.6233.15010, Culture=neutral, PublicKeyToken=null]] - The query returned multiple property sets for document definition 1063, Home
+ 2017-02-12 15:58:25,265 [P496/D2/T29] WARN  Umbraco.Core.Persistence.Repositories.VersionableRepositoryBase`2[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[Umbraco.Core.Models.IContent, Umbraco.Core, Version=1.0.6233.15010, Culture=neutral, PublicKeyToken=null]] - The query returned multiple property sets for document definition 1063, Home
+ 2017-02-12 15:58:25,265 [P496/D2/T29] WARN  Umbraco.Core.Persistence.Repositories.VersionableRepositoryBase`2[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[Umbraco.Core.Models.IContent, Umbraco.Core, Version=1.0.6233.15010, Culture=neutral, PublicKeyToken=null]] - The query returned multiple property sets for document definition 1063, Home
+ 2017-02-12 15:58:25,265 [P496/D2/T29] WARN  Umbraco.Core.Persistence.Repositories.VersionableRepositoryBase`2[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[Umbraco.Core.Models.IContent, Umbraco.Core, Version=1.0.6233.15010, Culture=neutral, PublicKeyToken=null]] - The query returned multiple property sets for document definition 1063, Home
+ 2017-02-12 15:58:25,265 [P496/D2/T29] WARN  Umbraco.Core.Persistence.Repositories.VersionableRepositoryBase`2[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[Umbraco.Core.Models.IContent, Umbraco.Core, Version=1.0.6233.15010, Culture=neutral, PublicKeyToken=null]] - The query returned multiple property sets for document definition 1063, Home
+ 2017-02-12 15:58:25,265 [P496/D2/T29] WARN  Umbraco.Core.Persistence.Repositories.VersionableRepositoryBase`2[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[Umbraco.Core.Models.IContent, Umbraco.Core, Version=1.0.6233.15010, Culture=neutral, PublicKeyToken=null]] - The query returned multiple property sets for document definition 1063, Home
+ 2017-02-12 15:58:25,265 [P496/D2/T29] WARN  Umbraco.Core.Persistence.Repositories.VersionableRepositoryBase`2[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[Umbraco.Core.Models.IContent, Umbraco.Core, Version=1.0.6233.15010, Culture=neutral, PublicKeyToken=null]] - The query returned multiple property sets for document definition 1063, Home
+ 2017-02-12 15:58:31,521 [P496/D2/T46] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Home' with Id '1063' has been published.
+ 2017-02-12 15:58:35,590 [P496/D2/T83] INFO  umbraco.content - Save Xml to file...
+ 2017-02-12 15:58:35,611 [P496/D2/T83] INFO  umbraco.content - Saved Xml to file.
+ 2017-02-12 15:59:05,132 [P496/D2/T36] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Home' with Id '1063' has been published.
+ 2017-02-12 15:59:09,551 [P496/D2/T87] INFO  umbraco.content - Save Xml to file...
+ 2017-02-12 15:59:09,564 [P496/D2/T87] INFO  umbraco.content - Saved Xml to file.
+ 2017-02-12 15:59:22,033 [P496/D2/T68] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Home' with Id '1063' has been published.
+ 2017-02-12 15:59:26,088 [P496/D2/T27] INFO  umbraco.content - Save Xml to file...
+ 2017-02-12 15:59:26,103 [P496/D2/T27] INFO  umbraco.content - Saved Xml to file.
+ 2017-02-12 15:59:53,995 [P496/D2/T25] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Wholesale Gems & Jewelry' with Id '1064' has been published.
+ 2017-02-12 15:59:58,039 [P496/D2/T68] INFO  umbraco.content - Save Xml to file...
+ 2017-02-12 15:59:58,056 [P496/D2/T68] INFO  umbraco.content - Saved Xml to file.
+ 2017-02-12 16:00:27,621 [P496/D2/T29] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Wholesale Gems & Jewelry' with Id '1064' has been published.
+ 2017-02-12 16:00:31,669 [P496/D2/T67] INFO  umbraco.content - Save Xml to file...
+ 2017-02-12 16:00:31,759 [P496/D2/T67] INFO  umbraco.content - Saved Xml to file.
+ 2017-02-12 16:01:12,232 [P496/D2/T68] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Custom Jewelry Design' with Id '1068' has been published.
+ 2017-02-12 16:01:16,480 [P496/D2/T68] INFO  umbraco.content - Save Xml to file...
+ 2017-02-12 16:01:16,559 [P496/D2/T68] INFO  umbraco.content - Saved Xml to file.
+ 2017-02-12 16:06:24,742 [P496/D2/T34] ERROR Umbraco.Core.UmbracoApplicationBase - An unhandled exception occurred
+System.Web.HttpParseException (0x80004005): End-of-file was found after the "@" character.  "@" must be followed by a valid code block.  If you want to output an "@", escape it using the sequence: "@@"
+
+   at System.Web.WebPages.Razor.RazorBuildProvider.EnsureGeneratedCode()
+   at System.Web.WebPages.Razor.RazorBuildProvider.get_CodeCompilerType()
+   at System.Web.Compilation.BuildProvider.GetCompilerTypeFromBuildProvider(BuildProvider buildProvider)
+   at System.Web.Compilation.BuildProvidersCompiler.ProcessBuildProviders()
+   at System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   at System.Web.Compilation.BuildManager.GetCompiledType(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetCompiledType(String virtualPath)
+   at System.Web.Mvc.BuildManagerWrapper.System.Web.Mvc.IBuildManager.GetCompiledType(String virtualPath)
+   at System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)
+   at Umbraco.Core.Profiling.ProfilingView.Render(ViewContext viewContext, TextWriter writer)
+   at System.Web.Mvc.HtmlHelper.RenderPartialInternal(String partialViewName, ViewDataDictionary viewData, Object model, TextWriter writer, ViewEngineCollection viewEngineCollection)
+   at System.Web.Mvc.Html.RenderPartialExtensions.RenderPartial(HtmlHelper htmlHelper, String partialViewName)
+   at ASP._Page_Views_Master_cshtml.Execute() in c:\Users\Karissa\Documents\Visual Studio 2015\Projects\WebApplication3\WebApplication3\Views\Master.cshtml:line 66
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   at System.Web.Mvc.WebViewPage.ExecutePageHierarchy()
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   at System.Web.WebPages.WebPageBase.<>c__DisplayClass3.<RenderPageCore>b__2(TextWriter writer)
+   at System.Web.WebPages.HelperResult.WriteTo(TextWriter writer)
+   at System.Web.WebPages.WebPageBase.Write(HelperResult result)
+   at System.Web.WebPages.WebPageBase.RenderSurrounding(String partialViewName, Action`1 body)
+   at System.Web.WebPages.WebPageBase.PopContext()
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   at System.Web.Mvc.RazorView.RenderView(ViewContext viewContext, TextWriter writer, Object instance)
+   at System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)
+   at Umbraco.Core.Profiling.ProfilingView.Render(ViewContext viewContext, TextWriter writer)
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeAction(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.<BeginExecuteCore>b__1d(IAsyncResult asyncResult, ExecuteCoreState innerState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.<BeginExecute>b__15(IAsyncResult asyncResult, Controller controller)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.System.Web.Mvc.Async.IAsyncController.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.<BeginProcessRequest>b__5(IAsyncResult asyncResult, ProcessRequestState innerState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.System.Web.IHttpAsyncHandler.EndProcessRequest(IAsyncResult result)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+ 2017-02-12 16:06:37,456 [P496/D2/T34] ERROR Umbraco.Core.UmbracoApplicationBase - An unhandled exception occurred
+System.Web.HttpParseException (0x80004005): End-of-file was found after the "@" character.  "@" must be followed by a valid code block.  If you want to output an "@", escape it using the sequence: "@@"
+
+   at System.Web.WebPages.Razor.RazorBuildProvider.EnsureGeneratedCode()
+   at System.Web.WebPages.Razor.RazorBuildProvider.get_CodeCompilerType()
+   at System.Web.Compilation.BuildProvider.GetCompilerTypeFromBuildProvider(BuildProvider buildProvider)
+   at System.Web.Compilation.BuildProvidersCompiler.ProcessBuildProviders()
+   at System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   at System.Web.Compilation.BuildManager.GetCompiledType(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetCompiledType(String virtualPath)
+   at System.Web.Mvc.BuildManagerWrapper.System.Web.Mvc.IBuildManager.GetCompiledType(String virtualPath)
+   at System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)
+   at Umbraco.Core.Profiling.ProfilingView.Render(ViewContext viewContext, TextWriter writer)
+   at System.Web.Mvc.HtmlHelper.RenderPartialInternal(String partialViewName, ViewDataDictionary viewData, Object model, TextWriter writer, ViewEngineCollection viewEngineCollection)
+   at System.Web.Mvc.Html.RenderPartialExtensions.RenderPartial(HtmlHelper htmlHelper, String partialViewName)
+   at ASP._Page_Views_Master_cshtml.Execute() in c:\Users\Karissa\Documents\Visual Studio 2015\Projects\WebApplication3\WebApplication3\Views\Master.cshtml:line 66
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   at System.Web.Mvc.WebViewPage.ExecutePageHierarchy()
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   at System.Web.WebPages.WebPageBase.<>c__DisplayClass3.<RenderPageCore>b__2(TextWriter writer)
+   at System.Web.WebPages.HelperResult.WriteTo(TextWriter writer)
+   at System.Web.WebPages.WebPageBase.Write(HelperResult result)
+   at System.Web.WebPages.WebPageBase.RenderSurrounding(String partialViewName, Action`1 body)
+   at System.Web.WebPages.WebPageBase.PopContext()
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   at System.Web.Mvc.RazorView.RenderView(ViewContext viewContext, TextWriter writer, Object instance)
+   at System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)
+   at Umbraco.Core.Profiling.ProfilingView.Render(ViewContext viewContext, TextWriter writer)
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeAction(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.<BeginExecuteCore>b__1d(IAsyncResult asyncResult, ExecuteCoreState innerState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.<BeginExecute>b__15(IAsyncResult asyncResult, Controller controller)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.System.Web.Mvc.Async.IAsyncController.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.<BeginProcessRequest>b__5(IAsyncResult asyncResult, ProcessRequestState innerState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.System.Web.IHttpAsyncHandler.EndProcessRequest(IAsyncResult result)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+ 2017-02-12 16:22:32,998 [P496/D2/T127] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Wholesale' with Id '1064' has been published.
+ 2017-02-12 16:22:37,062 [P496/D2/T127] INFO  umbraco.content - Save Xml to file...
+ 2017-02-12 16:22:37,081 [P496/D2/T127] INFO  umbraco.content - Saved Xml to file.

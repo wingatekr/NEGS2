@@ -1,7 +1,8 @@
 ﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+@using ClientDependency.Core.Mvc
 @{
     Layout = null;
-	var home = @CurrentPage.Site();
+	var home = CurrentPage.Site();
 }
 
 <!DOCTYPE html>
@@ -24,6 +25,7 @@
     <link rel="stylesheet" type="text/css" href="/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="/css/fanoe.css">
     <link rel="stylesheet" type="text/css" href="/css/style.css">
+	<link rel="stylesheet" type="text/css" href="/css/rte.css">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -34,12 +36,22 @@
   </head>
 
   <body>
+      <div id="fb-root"></div>
+      <script>
+        (function(d, s, id) {
+          var js, fjs = d.getElementsByTagName(s)[0];
+          if (d.getElementById(id)) return;
+          js = d.createElement(s); js.id = id;
+          js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.8";
+          fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
+      </script>
     <header>
       <div class="container">
         <div class="row">
           <div class="col-xs-8 col-sm-12 col-md-4">
 			<a href="@home.Url">
-            	<div class="brand" style="background-image:url('@(home.SiteLogo)?height=65&width=205&bgcolor=000')"></div>
+            	<div class="brand" style="background-image:url('@(home.SiteLogo)?height=65&width=205')"></div>
 			</a>
           </div>
           <div class="col-sm-12 col-md-8">
@@ -73,5 +85,9 @@
     <script src="/js/jquery.min.js"></script>
     <script src="/js/bootstrap.min.js"></script>
 	<script src="/scripts/fanoe.js"></script>
+    <script src="https://ajax.aspnetcdn.com/ajax/jquery.validate/1.13.1/jquery.validate.min.js"></script>
+    <script src="https://ajax.aspnetcdn.com/ajax/mvc/5.1/jquery.validate.unobtrusive.min.js"></script>
+    @Umbraco.RenderMacro("FormsRenderScripts")
+    <script src="~/scripts/MacroPartials/birthstones.js"></script>
   </body>
 </html>

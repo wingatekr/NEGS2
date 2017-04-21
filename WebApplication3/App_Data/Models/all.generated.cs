@@ -8,7 +8,7 @@ using  Umbraco.Web;
 using  Umbraco.ModelsBuilder;
 using  Umbraco.ModelsBuilder.Umbraco;
 [assembly: PureLiveAssembly]
-[assembly:ModelsBuilderAssembly(PureLive = true, SourceHash = "d185df4029cb33e8")]
+[assembly:ModelsBuilderAssembly(PureLive = true, SourceHash = "477d08e9260ab6de")]
 [assembly:System.Reflection.AssemblyVersion("0.0.0.1")]
 
 
@@ -66,6 +66,15 @@ namespace Umbraco.Web.PublishedContentModels
 		}
 
 		///<summary>
+		/// Categories: Add categories for this post to be listed under.
+		///</summary>
+		[ImplementPropertyType("categories")]
+		public object Categories
+		{
+			get { return this.GetPropertyValue("categories"); }
+		}
+
+		///<summary>
 		/// Content
 		///</summary>
 		[ImplementPropertyType("content")]
@@ -81,6 +90,24 @@ namespace Umbraco.Web.PublishedContentModels
 		public string Introduction
 		{
 			get { return this.GetPropertyValue<string>("introduction"); }
+		}
+
+		///<summary>
+		/// Publication Date: The publication date displayed just above the article.
+		///</summary>
+		[ImplementPropertyType("publicationDate")]
+		public DateTime PublicationDate
+		{
+			get { return this.GetPropertyValue<DateTime>("publicationDate"); }
+		}
+
+		///<summary>
+		/// Thumbnail Image: Displayed aside the Intoduction in Preview Tab
+		///</summary>
+		[ImplementPropertyType("thumbnailImage")]
+		public Umbraco.Web.Models.ImageCropDataSet ThumbnailImage
+		{
+			get { return this.GetPropertyValue<Umbraco.Web.Models.ImageCropDataSet>("thumbnailImage"); }
 		}
 	}
 
@@ -216,6 +243,15 @@ namespace Umbraco.Web.PublishedContentModels
 		}
 
 		///<summary>
+		/// Hide in top Navigation
+		///</summary>
+		[ImplementPropertyType("hideInTopNavigation")]
+		public bool HideInTopNavigation
+		{
+			get { return this.GetPropertyValue<bool>("hideInTopNavigation"); }
+		}
+
+		///<summary>
 		/// Hide in bottom navigation?
 		///</summary>
 		[ImplementPropertyType("umbracoNaviHide")]
@@ -257,6 +293,111 @@ namespace Umbraco.Web.PublishedContentModels
 		public Newtonsoft.Json.Linq.JToken Content
 		{
 			get { return this.GetPropertyValue<Newtonsoft.Json.Linq.JToken>("content"); }
+		}
+	}
+
+	/// <summary>Category</summary>
+	[PublishedContentModel("category")]
+	public partial class Category : PublishedContentModel
+	{
+#pragma warning disable 0109 // new is redundant
+		public new const string ModelTypeAlias = "category";
+		public new const PublishedItemType ModelItemType = PublishedItemType.Content;
+#pragma warning restore 0109
+
+		public Category(IPublishedContent content)
+			: base(content)
+		{ }
+
+#pragma warning disable 0109 // new is redundant
+		public new static PublishedContentType GetModelContentType()
+		{
+			return PublishedContentType.Get(ModelItemType, ModelTypeAlias);
+		}
+#pragma warning restore 0109
+
+		public static PublishedPropertyType GetModelPropertyType<TValue>(Expression<Func<Category, TValue>> selector)
+		{
+			return PublishedContentModelUtility.GetModelPropertyType(GetModelContentType(), selector);
+		}
+	}
+
+	/// <summary>Birthstones</summary>
+	[PublishedContentModel("birthstones")]
+	public partial class Birthstones : PublishedContentModel
+	{
+#pragma warning disable 0109 // new is redundant
+		public new const string ModelTypeAlias = "birthstones";
+		public new const PublishedItemType ModelItemType = PublishedItemType.Content;
+#pragma warning restore 0109
+
+		public Birthstones(IPublishedContent content)
+			: base(content)
+		{ }
+
+#pragma warning disable 0109 // new is redundant
+		public new static PublishedContentType GetModelContentType()
+		{
+			return PublishedContentType.Get(ModelItemType, ModelTypeAlias);
+		}
+#pragma warning restore 0109
+
+		public static PublishedPropertyType GetModelPropertyType<TValue>(Expression<Func<Birthstones, TValue>> selector)
+		{
+			return PublishedContentModelUtility.GetModelPropertyType(GetModelContentType(), selector);
+		}
+	}
+
+	/// <summary>Birthstone</summary>
+	[PublishedContentModel("birthstone")]
+	public partial class Birthstone : Birthstones
+	{
+#pragma warning disable 0109 // new is redundant
+		public new const string ModelTypeAlias = "birthstone";
+		public new const PublishedItemType ModelItemType = PublishedItemType.Content;
+#pragma warning restore 0109
+
+		public Birthstone(IPublishedContent content)
+			: base(content)
+		{ }
+
+#pragma warning disable 0109 // new is redundant
+		public new static PublishedContentType GetModelContentType()
+		{
+			return PublishedContentType.Get(ModelItemType, ModelTypeAlias);
+		}
+#pragma warning restore 0109
+
+		public static PublishedPropertyType GetModelPropertyType<TValue>(Expression<Func<Birthstone, TValue>> selector)
+		{
+			return PublishedContentModelUtility.GetModelPropertyType(GetModelContentType(), selector);
+		}
+
+		///<summary>
+		/// Description: Enter the body description of the birthstone.
+		///</summary>
+		[ImplementPropertyType("description")]
+		public IHtmlString Description
+		{
+			get { return this.GetPropertyValue<IHtmlString>("description"); }
+		}
+
+		///<summary>
+		/// Image: Image displayed above description.
+		///</summary>
+		[ImplementPropertyType("image")]
+		public Umbraco.Web.Models.ImageCropDataSet Image
+		{
+			get { return this.GetPropertyValue<Umbraco.Web.Models.ImageCropDataSet>("image"); }
+		}
+
+		///<summary>
+		/// Sub Title: Displayed below title. Describe hardness.
+		///</summary>
+		[ImplementPropertyType("subTitle")]
+		public string SubTitle
+		{
+			get { return this.GetPropertyValue<string>("subTitle"); }
 		}
 	}
 

@@ -9,27 +9,31 @@
     @* Add in level for a CSS hook *@
     <ul class="level-@naviLevel">            
         @* For each child page under the home node *@
+        
         @foreach (var childPage in home.Children)
         {   
-            if (childPage.Children.Any())
-            {                    
-                <li class="has-child @(childPage.IsAncestorOrSelf(CurrentPage) ? "selected" : null)">
-					@if(childPage.DocumentTypeAlias == "LandingPage") 
-					{
-                    	<span>@childPage.Name</span>
-						@childPages(childPage.Children)
-					} else {
-						<a href="@childPage.Url">@childPage.Name</a>
-					}
-                </li>
-            } 
-			else
-            {
-                <li class="@(childPage.IsAncestorOrSelf(CurrentPage) ? "selected" : null)">
-                    <a href="@childPage.Url">@childPage.Name</a>
-                </li>
-            }            
+            if(!childPage.hideInTopNavigation) {
+                if (childPage.Children.Any())
+                {                    
+                    <li class="has-child @(childPage.IsAncestorOrSelf(CurrentPage) ? "selected" : null)">
+					    @if(childPage.DocumentTypeAlias == "LandingPage") 
+					    {
+                    	    <span>@childPage.Name</span><span class="arrow-down"></span>
+						    @childPages(childPage.Children)
+					    } else {
+						    <a href="@childPage.Url">@childPage.Name</a>
+					    }
+                    </li>
+                } 
+			    else
+                {
+                    <li class="@(childPage.IsAncestorOrSelf(CurrentPage) ? "selected" : null)">
+                        <a href="@childPage.Url">@childPage.Name</a>
+                    </li>
+                }           
+            }
         }
+        
     </ul>
 }
 

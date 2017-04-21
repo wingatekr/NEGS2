@@ -23,7 +23,15 @@ p {
 font-size: 1rem;
 }
 
+.ImageLeft > img {
+	float: left;
+	margin: 0 1em .4em 0;
+}
 
+.ImageRight > img {
+	float: right;
+	margin: 0 0 .4em 1em;
+}
 
 /**umb_name:Header*/
 #Header{}
@@ -42,3 +50,9 @@ font-size: 1rem;
 
 /**umb_name:Blockquote*/
 #Blockquote{}
+
+/**umb_name:Image Left*/
+.ImageLeft{}
+
+/**umb_name:Image Right*/
+.ImageRight{}
